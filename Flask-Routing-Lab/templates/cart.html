@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Cart</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-
+<h1 class="heading"> Cart. </h1>
+<img src="{{url_for('static', filename = 'ebayCart.png')}}"><div></div>
+<a href="{{url_for('home')}}" > back to home </a><div></div>
 </body>
 </html>

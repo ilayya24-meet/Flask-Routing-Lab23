@@ -1,1 +1,7 @@
-
+.heading { 
+	text-align:center;
+	font-family: Arial,  sans-serif;
+	 }
+body {
+	background-color: red;
+}
