@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
 </head>
 <body>
+<h1 class="heading">Welcome to Bazaar Yachdav</h1>
 
+<img src="{{url_for('static', filename = 'ebayHomepage.png')}}">
+<h2 class="heading">I sell anything you can imagine (I have acquired amazon)</h2>
+<a href="{{url_for('product')}}" > product </a><div></div>
+<a href="{{url_for('cart')}}" > add to cart </a>
 </body>
 </html>
